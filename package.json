@@ -1,0 +1,30 @@
+{
+  "name": "node-app",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "babel-node ./src/index.js",
+    "build": "babel src --out-dir build --extensions \".js\" --source-maps inline"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "main": "build/index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.5.5",
+    "@types/node": "^12.7.2",
+    "babel-plugin-add-module-exports": "^1.0.2"
+  },
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "browser-node": "file:.yalc/browser-node"
+  }
+}
