@@ -2,7 +2,7 @@
   "version": "v1",
   "packages": {
     "./browser-node": {
-      "signature": "6e4aa4662ea15411601b0bc277a80c21",
+      "signature": "fa32a710542a2672abb00dc980dfc302",
       "file": true
     }
   }

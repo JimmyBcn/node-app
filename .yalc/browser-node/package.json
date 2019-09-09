@@ -1,8 +1,8 @@
 {
   "name": "browser-node",
-  "version": "0.1.0-6e4aa466",
+  "version": "0.1.0-fa32a710",
   "scripts": {
-    "build": "babel src --out-dir build --extensions \".js\" --source-maps inline"
+    "start": "babel-node ./src/index.js"
   },
   "engines": {
     "node": ">=8",
@@ -18,6 +18,6 @@
     "@babel/polyfill": "^7.4.4"
   },
   "browser": {
-    "./hello-node.js": "./hello-browser.js"
+    "./build/hello-node.js": "./build/hello-browser.js"
   }
 }

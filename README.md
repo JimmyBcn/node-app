@@ -1,3 +1,3 @@
-# NodeBrowser
+# node-app
 
-A package to easily test how you can...
+A nodejs package for testing browser-node package
